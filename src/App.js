@@ -1,6 +1,8 @@
 import React from 'react';
+import Image from './Image';
 import logo from './logo.svg';
 import './App.css';
+import { Grid, Row, Col } from 'react-flexbox-grid';
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
+          Here's my cool edit!
         </p>
         <a
           className="App-link"
@@ -18,8 +21,43 @@ function App() {
         >
           Learn React
         </a>
+        <Grid fluid>
+          <Row between="xs">
+            <Col xs={3}>
+            <Image/>
+            </Col>
+            <Col xs={3}>
+            <Image/>
+            </Col>
+            <Col xs={3}>
+            <Image/>
+            </Col>
+          </Row>
+          <Row between="xs">
+            <Col xs={3}>
+            <Image/>
+            </Col>
+            <Col xs={3}>
+            <Image/>
+            </Col>
+            <Col xs={3}>
+            <Image/>
+            </Col>
+          </Row>
+          <Row between="xs">
+            <Col xs={3}>
+            <Image/>
+            </Col>
+            <Col xs={3}>
+            <Image/>
+            </Col>
+            <Col xs={3}>
+            <Image/>
+            </Col>
+          </Row>
+        </Grid>
+
       </header>
-      
     </div>
   );
 }
