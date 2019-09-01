@@ -2,11 +2,14 @@ import React from "react";
 
 function Jumbotron() {
   return (
-    <div className="jumbotron">
-      <h1>Clicky Game</h1>
-      <p>
-Click on an image to earn points, but don't click on any more than once!
-      </p>
+    <div className="jumbotron vertical-center">
+      <h1>Clicky Game!</h1>
+      <ul>
+        <li>
+          <span><i class="fa fa-cogs simple_bg top-features-bg"></i></span>
+          <p><strong>Track</strong> Views, Clicks and Conversions.</p>
+        </li>
+      </ul>
     </div>
   );
 }
