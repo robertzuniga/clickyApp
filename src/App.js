@@ -29,7 +29,7 @@ class App extends Component {
       {/* <Card /> */}
     
       <Wrapper>
-        <Title>Friends List</Title>
+        {/* <Title>Click but don't Repeat</Title> */}
         {this.state.friends.map(friend => (
           <FriendCard
             removeFriend={this.removeFriend}
