@@ -1,4 +1,7 @@
 import React, { Component } from "react";
+import Navbar from "./components/Navbar";
+import Jumbotron from "./components/Jumbotron";
+// import Card from "./components/Card";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
@@ -20,6 +23,11 @@ class App extends Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
+      <div className="container">
+      <Navbar />
+      <Jumbotron />
+      {/* <Card /> */}
+    
       <Wrapper>
         <Title>Friends List</Title>
         {this.state.friends.map(friend => (
@@ -34,6 +42,7 @@ class App extends Component {
           />
         ))}
       </Wrapper>
+      </div>
     );
   }
 }
