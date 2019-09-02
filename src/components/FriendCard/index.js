@@ -5,18 +5,15 @@ function FriendCard(props) {
   return (
     <div className="card">
 
-      
+      <div className="img-container click-item">
+        <img alt={props.name} src={props.image} />
+      </div>
       {/* <div role="img" class="click item" >
         <div className="img-container">
           <img alt={props.name} src={props.image} />
         </div>
       </div> */}
-      
-      <div className="img-container click-item">
-        <img alt={props.name} src={props.image} />
-      </div>
-
-{/* <div role="img" aria-label="click item" class="click-item" style="background-image: url(&quot;/assets/images/beth.png&quot;);"></div> */}
+      {/* <div role="img" aria-label="click item" class="click-item" style="background-image: url(&quot;/assets/images/beth.png&quot;);"></div> */}
       {/* <div className="content">
         <ul>
           <li>
@@ -30,11 +27,16 @@ function FriendCard(props) {
           </li> */}
         {/* </ul> */}
       {/* </div> */} 
-      <span onClick={() => props.removeFriend(props.id)} className="remove">
+
+      {/* <span onClick={() => props.removeFriend(props.id)} className="remove">
         𝘅
       </span>
-    </div>
-  );
-}
+      */}
 
+
+
+    </div>
+
+);
+}
 export default FriendCard;
