@@ -6,3 +6,9 @@
   min-height: 100px;
 }
 
+.brand{
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 900;
+}
