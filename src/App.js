@@ -10,7 +10,9 @@ import friends from "./friends.json";
 class App extends Component {
   // Setting this.state.friends to the friends json array
   state = {
-    friends
+    friends,
+    clickedImg: [],
+    score: 0
   };
 
   // removeFriend = id => {
@@ -19,6 +21,11 @@ class App extends Component {
   //   // Set this.state.friends equal to the new friends array
   //   this.setState({ friends });
   // };
+
+
+
+
+
 
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
@@ -32,7 +39,7 @@ class App extends Component {
         {/* <Title>Click but don't Repeat</Title> */}
         {this.state.friends.map(friend => (
           <FriendCard
-            removeFriend={this.removeFriend}
+            // removeFriend={this.removeFriend}
             id={friend.id}
             key={friend.id}
             // name={friend.name}

@@ -1,8 +1,9 @@
-[
+ [
   {
     "id": 1,
     "name": "Beth",
     "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/beth.JPG",
+
     "occupation": "Mom",
     "location": "Seattle, Washington"
   },
