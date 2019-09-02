@@ -4,10 +4,20 @@ import "./style.css";
 function FriendCard(props) {
   return (
     <div className="card">
-      <div className="img-container">
+
+      
+      {/* <div role="img" class="click item" >
+        <div className="img-container">
+          <img alt={props.name} src={props.image} />
+        </div>
+      </div> */}
+      
+      <div className="img-container click-item">
         <img alt={props.name} src={props.image} />
       </div>
-      <div className="content">
+
+{/* <div role="img" aria-label="click item" class="click-item" style="background-image: url(&quot;/assets/images/beth.png&quot;);"></div> */}
+      {/* <div className="content">
         <ul>
           <li>
             <strong> {props.name} </strong>
@@ -18,8 +28,8 @@ function FriendCard(props) {
           <li>
             <strong>Location:</strong> {props.location}
           </li> */}
-        </ul>
-      </div>
+        {/* </ul> */}
+      {/* </div> */} 
       <span onClick={() => props.removeFriend(props.id)} className="remove">
         𝘅
       </span>

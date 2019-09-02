@@ -4,7 +4,7 @@ import Jumbotron from "./components/Jumbotron";
 // import Card from "./components/Card";
 import FriendCard from "./components/FriendCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+// import Title from "./components/Title";
 import friends from "./friends.json";
 
 class App extends Component {
