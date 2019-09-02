@@ -1,5 +1,16 @@
 import React from "react";
 import "./style.css";
+
+// const Header = props => (
+//   <div className="header">
+//     <div className="title">{props.children}</div>
+//     <div className="scores">
+//       score: {props.score} highscore: {props.highscore}
+//     </div>
+//   </div>
+// );
+
+
 function Navbar() {
   return ( 
     <nav className="navbar navbar-dark navbar-expand-md justify-content-between">
@@ -20,8 +31,9 @@ function Navbar() {
     
             <div className="navbar-collapse collapse dual-nav w-50 order-2">
                 <ul className="nav navbar-nav ml-auto">
-                    <li className="centerText"> Score:  </li>
-    
+                {/* score: {props.score} highscore: {props.highscore} */}
+                    {/* <li className="centerText"> Score: {state.props.score} </li> */}
+                    {/* <li className="centerText"> Score: </li> */}
                 </ul>
             </div>
         </div>

@@ -2,86 +2,77 @@
   {
     "id": 1,
     "name": "Beth",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/beth.JPG",
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/beth.JPG",
 
-    "occupation": "Mom",
-    "location": "Seattle, Washington"
+    "count": 0
+    
   },
   {
     "id": 2,
     "name": "BirdPerson",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/birdperson.JPG",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/birdperson.JPG",
+
+    "count": 0
+    
   },
   {
     "id": 3,
     "name": "Evil Morty",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/evilmorty.JPG",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/evilmorty.JPG",
+    "count": 0
   },
   {
     "id": 4,
     "name": "Giant Head",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/gianthead.JPG",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/gianthead.JPG",
+    "count": 0
   },
   {
     "id": 5,
     "name": "Goldenford",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/goldenford.JPG",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/goldenford.JPG",
+    "count": 0
   },
   {
     "id": 6,
     "name": "Jerry",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/jerry.JPG",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/jerry.JPG",
+    "count": 0
   },
   {
     "id": 7,
     "name": "Jessica",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/jessica.JPG",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/jessica.JPG",
+    "count": 0
   },
   {
     "id": 8,
     "name": "MeeSeeks",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/meeseeks.JPG",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/meeseeks.JPG",
+    "count": 0
   },
   {
     "id": 9,
     "name": "Morty",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/morty.JPG",
-    "occupation": "Adventurer",
-    "location": "California"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/morty.JPG",
+    "count": 0
   },
   {
     "id": 10,
     "name": "Mr.",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/mr.JPG",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/mr.JPG",
+    "count": 0
   },
   {
     "id": 11,
     "name": "Rick",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/rick.JPG",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/rick.JPG",
+    "count": 0
   },
   {
     "id": 12,
     "name": "Summer",
-    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/public/images/summer.JPG",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "image": "https://raw.githubusercontent.com/robertzuniga/clickyapp/master/src/images/summer.JPG",
+    "count": 0
   }
 ]
