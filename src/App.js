@@ -42,7 +42,7 @@ class App extends Component {
     this.state.friends.forEach(friend => {
       friend.count = 0;
     });
-    alert(`Game Over \ncurrentPoints: ${this.state.currentPoints} \nmaxPoints: ${this.state.maxPoints}`);
+    alert(`Repeated Click Choice  \n ${this.state.currentPoints} : currentPoints  \n ${this.state.maxPoints} : maxPoints`);
     this.setState({currentPoints: 0});
     return true;
   }
