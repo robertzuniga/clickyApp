@@ -13,7 +13,6 @@ class App extends Component {
     currentPoints: 0,
     maxPoints: 0
   };
-
 //  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
   pointTotal = id => {
     this.state.friends.find((i, j) => {
