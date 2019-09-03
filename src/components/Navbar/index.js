@@ -11,7 +11,7 @@ import "./style.css";
 // );
 
 
-function Navbar() {
+function Navbar(props) {
   return ( 
     <nav className="navbar navbar-dark navbar-expand-md justify-content-between">
         <div className="container-fluid">
@@ -29,7 +29,8 @@ function Navbar() {
     
             <div className="scores  w-50 order-2">
                 <ul className="nav navbar-nav ml-auto">
-                {/* score: currentPoints={props.currentPoints} maxPoints={props.maxPoints} */}}
+                    {/* score here */}
+                score : currentPoints={props.currentPoints} maxPoints={props.maxPoints} 
                 </ul>
             </div>
 

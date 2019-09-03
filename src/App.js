@@ -29,7 +29,8 @@ class App extends Component {
           this.resetClicky();
         }
       }
-      return console.log("pointTotal success ==> ", this.pointTotal)
+      return console.log("==> pointTotal success <== ")
+      // return console.log("pointTotal success ==> ", this.pointTotal)
     });
   }
   
@@ -42,7 +43,8 @@ class App extends Component {
     this.state.friends.forEach(friend => {
       friend.count = 0;
     });
-    alert(`Repeated Click Choice  \n ${this.state.currentPoints} : currentPoints  \n ${this.state.maxPoints} : maxPoints`);
+    // alert(`Repeated Click Choice  \n ${this.state.currentPoints} : currentPoints  \n ${this.state.maxPoints} : maxPoints`);
+    console.log("Repeated Click Choice  \n" + this.state.currentPoints + " :  currentPoints  \n" + this.state.maxPoints +" : maxPoints");
     this.setState({currentPoints: 0});
     return true;
   }
