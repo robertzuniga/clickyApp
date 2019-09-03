@@ -43,7 +43,6 @@ class App extends Component {
     this.state.friends.forEach(friend => {
       friend.count = 0;
     });
-    // alert(`Repeated Click Choice  \n ${this.state.currentPoints} : currentPoints  \n ${this.state.maxPoints} : maxPoints`);
     console.log("Repeated Click Choice  \n" + this.state.currentPoints + " :  currentPoints  \n" + this.state.maxPoints +" : maxPoints");
     this.setState({currentPoints: 0});
     return true;
